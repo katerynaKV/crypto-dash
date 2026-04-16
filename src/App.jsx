@@ -6,7 +6,7 @@ import AboutPage from "./pages/AboutPage";
 import NotFoundPage from "./pages/NotFound";
 import CoinDetailsPage from "./pages/CoinDetails";
 
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = import.meta.env.VITE_COINS_API_URL;
 
 const App = () => {
   const [coins, setCoins] = useState([]);
